@@ -8,7 +8,8 @@
         <a-marker preset="custom" type="pattern" url="pattern-tomo.patt"></a-marker>
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
             <a-entity
-            obj-model="obj: url(/obj/ome.obj)"
+            obj-model="obj: url(/obj/ome.obj);
+            mtl: url(/obj/ome.mtl)"
             position="0 -1 0"
             scale="1 1 1"
             ></a-entity>
